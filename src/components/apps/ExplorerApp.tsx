@@ -70,7 +70,7 @@ export const ExplorerApp: React.FC<ExplorerAppProps> = ({ initialPath = ['home',
             <div style={{ flex: 1, padding: 10, display: 'flex', flexWrap: 'wrap', gap: 20, alignContent: 'flex-start' }}>
                 {items.length === 0 && <div style={{ color: '#808080' }}>Empty folder</div>}
 
-                {items.map(([key, node]) => (
+                {items.map(([_, node]) => (
                     <div
                         key={node.id}
                         onDoubleClick={() => handleOpen(node)}

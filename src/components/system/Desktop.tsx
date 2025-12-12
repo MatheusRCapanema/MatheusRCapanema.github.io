@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Taskbar } from './Taskbar';
 import { useWindowManager } from '../../contexts/WindowManager';
 import { WindowFrame } from './WindowFrame';
