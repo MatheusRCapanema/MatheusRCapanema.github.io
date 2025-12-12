@@ -1,0 +1,113 @@
+:root {
+  /* Colors - Win95 Palette */
+  --desktop-bg: #008080;
+  /* Classic Teal */
+  --window-bg: #c0c0c0;
+  /* Silver */
+  --window-header: #000080;
+  /* Navy */
+  --window-header-inactive: #808080;
+  --text-main: #000000;
+  --text-inverted: #ffffff;
+  --button-light: #ffffff;
+  --button-shadow: #808080;
+  --button-dark-shadow: #000000;
+  --selection-bg: #000080;
+
+  /* Fonts */
+  --font-main: 'VT323', monospace;
+  /* For terminal/text */
+  --font-ui: 'Press Start 2P', cursive;
+  /* For headers/UI */
+
+  /* Spacing */
+  --spacing-sm: 4px;
+  --spacing-md: 8px;
+  --spacing-lg: 16px;
+
+  /* Borders */
+  --border-width: 2px;
+  --border-raised: inset 2px #ffffff, inset -2px #000000;
+  --border-lowered: inset 2px #000000, inset -2px #ffffff;
+  --border-window: outset 2px #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  background-color: var(--desktop-bg);
+  overflow: hidden;
+  /* Prevent scrolling, OS is fixed viewport */
+  user-select: none;
+  /* Desktop feel */
+  /* Retro Cursor */
+  cursor: default;
+  -webkit-font-smoothing: none;
+  /* Crisp pixels */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 16px;
+  background: var(--window-bg);
+}
+
+/* Cursor pointer for buttons/links */
+a,
+button,
+.pointer,
+.retro-btn,
+.desktop-icons>div {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--window-bg);
+  box-shadow: var(--border-window);
+}
+
+::-webkit-scrollbar-button {
+  background: var(--window-bg);
+  box-shadow: var(--border-window);
+  height: 16px;
+}
+
+/* Utility for retro box */
+.retro-window.maximized {
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: calc(100% - 40px) !important;
+  /* Minus taskbar */
+  transform: none !important;
+  border-radius: 0;
+}
+
+.retro-box {
+  background: var(--window-bg);
+  box-shadow: inset 1px 1px #dfdfdf, inset -1px -1px #000000, inset 2px 2px #ffffff, inset -2px -2px #808080;
+}
+
+.hover-item:hover {
+  background-color: #000080;
+  color: #fff;
+}
+
+.retro-btn {
+  background: var(--window-bg);
+  box-shadow: inset 1px 1px #ffffff, inset -1px -1px #000000, inset 2px 2px #dfdfdf, inset -2px -2px #808080;
+  border: none;
+  padding: 6px 12px;
+  font-family: var(--font-ui);
+  font-size: 10px;
+}
+
+.retro-btn:active {
+  box-shadow: inset 1px 1px #000000, inset -1px -1px #ffffff, inset 2px 2px #808080, inset -2px -2px #dfdfdf;
+  transform: translate(1px, 1px);
+}

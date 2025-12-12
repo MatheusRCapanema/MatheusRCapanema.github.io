@@ -1,0 +1,72 @@
+AI Engineer
+SICOOB
+2024  Present Brazil
+Brazilian Bank
+•
+Developed an end-to-end solution for banking data classification, 
+integrating processes from data collection to automation within 
+Databricks.
+•
+•
+•
+•
+Designed and implemented robust pipelines using PySpark, 
+beginning with data extraction from official sources such as the 
+Federal Revenue, ensuring data quality and reliability.
+Performed data correlation, cleansing, and consolidation, 
+segregating data into structured layers (bronze, silver, and gold) to 
+facilitate consumption and analysis while maintaining best practices 
+in traceability and governance.
+Actively contributed to the ML architecture by developing and 
+training logistic regression models for the classification of banking 
+transactions, ensuring the effectiveness and accuracy of the 
+predictive process.
+Automated the entire workflow from data ingestion to batch 
+updates in MongoDB creating efficient and scalable data pipelines 
+within Databricks
+
+Full Stack Developer
+GlobalWeb
+2022  2024 Brazil
+Software House
+•
+•
+Maintenance of legacy systems using technologies such as JSF 
+PrimeFaces), JSP, Angular, Java Spring, and JBoss, ensuring the 
+continuity of operations and the modernization of existing systems.
+Contribution to the architecture and implementation of front-ends 
+using components, allowing for greater modularity and flexibility in 
+front-end development.
+•
+•
+•
+•
+•
+Optimization of web applications and APIs, resulting in significant 
+performance improvements in both new and legacy systems.
+Execution of tests with JUnit and Mockito, ensuring the quality and 
+robustness of the developed applications.
+Participation in the creation of a design system, promoting 
+consistency and efficiency in the development of user interfaces.
+Knowledge sharing through workshops for interns on fundamental 
+concepts of front-end, back-end, architecture, and best 
+development practices, contributing to the technical growth of the 
+team.
+Involvement from the conception to the deployment of strategic 
+systems, ensuring the delivery of solutions aligned with business 
+requirements.
+
+EDUCATION
+Technician Degree - Software 
+Development
+IFB  Instituto Federal de Brasília
+2018  2021 
+Bachelor in Computer Science
+IESB
+2021  2025
+
+LANGUAGES
+Portuguese
+Native
+English
+Advanced
